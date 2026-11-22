@@ -1,0 +1,49 @@
+name: Sync GatherBuddyReborn into the plugin index
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23,53 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gbr-plugin-index
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'LienChan666/DalamudPlugins' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: master
+      - name: Verify release and update only the GBR entry
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for delay in 1 3 9 27; do
+            git fetch --no-tags origin '+refs/heads/master:refs/remotes/origin/master'
+            git reset --hard origin/master
+            python3 .github/scripts/sync_gbr.py pluginmaster.json
+            if git diff --quiet -- pluginmaster.json; then
+              exit 0
+            fi
+            git add -- pluginmaster.json GatherBuddyReborn/*.zip
+            git commit -m 'Publish GatherBuddyReborn in plugin index'
+            if git push origin HEAD:refs/heads/master; then
+              exit 0
+            fi
+            # Keep local staged mirror from leaking into the next fresh-base attempt.
+            git reset --hard origin/master
+            sleep "$delay"
+          done
+          echo 'Unable to update plugin index without overwriting a concurrent change.' >&2
+          exit 1
