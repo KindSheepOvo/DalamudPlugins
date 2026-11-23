@@ -47,10 +47,10 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "极致简化采集与钓鱼",
     "AcceptsFeedback": true,
-    "AssemblyVersion": "7.5.1000.2",
-    "TestingAssemblyVersion": "7.5.1000.2",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.2.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.2.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.2.zip"
+    "AssemblyVersion": "7.5.1000.3",
+    "TestingAssemblyVersion": "7.5.1000.3",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.3.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.3.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.3.zip"
   }
 ]
