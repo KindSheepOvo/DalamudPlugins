@@ -6,7 +6,7 @@
     "AssemblyVersion": "4.6.2.2403",
     "Description": "轻松领取并委托雇员进行探险。",
     "ApplicableVersion": "any",
-    "RepoUrl": "https://github.com/LienChan666/AutoRetainer",
+    "RepoUrl": "https://github.com/KindSheepOvo/AutoRetainer",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
     "LoadSync": false,
@@ -16,15 +16,15 @@
     "AcceptsFeedback": true,
     "TestingAssemblyVersion": "4.6.2.2403",
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/AutoRetainer/AutoRetainer-4.6.2.2403.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/AutoRetainer/AutoRetainer-4.6.2.2403.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/AutoRetainer/AutoRetainer-4.6.2.2403.zip"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/refs/heads/master/AutoRetainer/AutoRetainer-4.6.2.2403.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/refs/heads/master/AutoRetainer/AutoRetainer-4.6.2.2403.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/refs/heads/master/AutoRetainer/AutoRetainer-4.6.2.2403.zip"
   },
   {
     "Author": "The Combat Reborn Team",
     "Name": "GatherBuddy Reborn",
     "InternalName": "GatherBuddyReborn",
-    "RepoUrl": "https://github.com/LienChan666/GatherBuddyReborn",
+    "RepoUrl": "https://github.com/KindSheepOvo/GatherBuddyReborn",
     "Description": "添加多种命令, 可按物品名称查找采集点、鱼类及其位置, 并提供界面追踪特殊刷新时间与天气条件, 还可基于指定清单和条件自动采集物品, 自动采集需要 vnavmesh",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -47,10 +47,10 @@
     "IconUrl": "https://raw.githubusercontent.com/FFXIV-CombatReborn/RebornAssets/main/IconAssets/GBR_Icon.png",
     "Punchline": "极致简化采集与钓鱼",
     "AcceptsFeedback": true,
-    "AssemblyVersion": "7.5.1000.3",
-    "TestingAssemblyVersion": "7.5.1000.3",
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.3.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.3.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.1000.3.zip"
+    "AssemblyVersion": "7.5.8.402",
+    "TestingAssemblyVersion": "7.5.8.402",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.8.402.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.8.402.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/refs/heads/master/GatherBuddyReborn/GatherBuddyReborn-7.5.8.402.zip"
   }
 ]

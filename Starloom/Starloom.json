@@ -5,7 +5,7 @@
   "Description": "用于处理收藏品提交、工票物品购买与制作后流程衔接。",
   "InternalName": "Starloom",
   "AssemblyVersion": "0.1.1.0",
-  "RepoUrl": "https://github.com/LienChan666/StarLoom",
+  "RepoUrl": "https://github.com/KindSheepOvo/StarLoom",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 15,
   "TestingAssemblyVersion": "0.1.1.0",
@@ -15,7 +15,7 @@
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "AcceptsFeedback": true,
-  "DownloadLinkInstall": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/master/Starloom/latest.zip",
-  "DownloadLinkTesting": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/master/Starloom/latest.zip",
-  "DownloadLinkUpdate": "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/master/Starloom/latest.zip"
+  "DownloadLinkInstall": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/master/Starloom/latest.zip",
+  "DownloadLinkTesting": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/master/Starloom/latest.zip",
+  "DownloadLinkUpdate": "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/master/Starloom/latest.zip"
 }

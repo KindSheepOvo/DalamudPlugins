@@ -13,7 +13,7 @@ from urllib.parse import quote, urlsplit
 from urllib.request import Request, urlopen
 import zipfile
 
-REPO = "LienChan666/GatherBuddyReborn"
+REPO = "KindSheepOvo/GatherBuddyReborn"
 WEB_REPO = f"https://github.com/{REPO}"
 API = f"https://api.github.com/repos/{REPO}"
 NAME = "GatherBuddyReborn"
@@ -210,7 +210,7 @@ def sync(index_path):
         with mirror.open("xb") as output:
             output.write(archive_data)
     archive_url = (
-        "https://raw.githubusercontent.com/LienChan666/DalamudPlugins/"
+        "https://raw.githubusercontent.com/KindSheepOvo/DalamudPlugins/"
         f"refs/heads/master/{NAME}/{filename}"
     )
     for key in LINK_KEYS:
